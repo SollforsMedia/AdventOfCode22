@@ -1,6 +1,6 @@
-﻿namespace Day01
+﻿namespace Day02
 {
-    internal class Program
+    internal class Day2
     {
         static void Main(string[] args)
         {
