@@ -22,7 +22,6 @@
             {
                 if (String.IsNullOrEmpty(line))
                 {
-                    Console.WriteLine(newWeight);
                     if (newWeight > maxWeight)
                     {
                         maxWeight = newWeight;
@@ -43,12 +42,9 @@
             weights.Sort();
             weights.Reverse();
 
-            Console.WriteLine("Listan:");
-
             for (int i = 0; i < 3; i++)
             {
                 maxWeight3 += weights[i];
-                Console.WriteLine(weights[i]);
             }
 
             Console.WriteLine("Uppgift 1 = " + maxWeight);   //  72070
