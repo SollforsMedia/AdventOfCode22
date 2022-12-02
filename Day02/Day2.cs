@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            //string path = "D:\\stefan\\AdventOfCode22\\";
-            string path = "C:\\Users\\ssollfor\\source\\repos\\AdventOfCode22\\";
+            string path = "..\\..\\..\\..\\";
 
-            //string[] lines = System.IO.File.ReadAllLines(path+"Day02\\testinputDay2.txt");   //test
+            //string[] lines = System.IO.File.ReadAllLines(path + "Day02\\testinputDay2.txt");   //test
             string[] lines = System.IO.File.ReadAllLines(path + "Day02\\inputDay2.txt");         //prod
 
             Int32 points1 = 0;
