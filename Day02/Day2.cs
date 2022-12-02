@@ -66,13 +66,11 @@
 
 
 
-            //Uppgift 2:
 
+            //Console.WriteLine("Rader     = " + noOfRows);
 
-            Console.WriteLine("Rader     = " + noOfRows);   //  
-
-            Console.WriteLine("Uppgift 1 = " + points1);   //  
-            Console.WriteLine("Uppgift 2 = " + points2);  // 
+            Console.WriteLine("Uppgift 1 = " + points1);
+            Console.WriteLine("Uppgift 2 = " + points2);
         }
     }
 }
