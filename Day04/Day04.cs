@@ -16,7 +16,6 @@ namespace Day04
 
             var aPairs = new List<assPair>();
             int noOfRows = 0;
-
             
             foreach (string line in lines)
             {
