@@ -74,7 +74,6 @@
             {
                 answer1 += stacks[i][stacks[i].Count - 1];
                 answer2 += stacks2[i][stacks2[i].Count - 1];
-
             }
 
 
