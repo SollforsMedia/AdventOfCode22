@@ -5,14 +5,22 @@
         static void Main(string[] args)
         {
             string path = "..\\..\\..\\..\\";
-
-            string[] lines = System.IO.File.ReadAllLines(path + "DayXX\\testinputDayX.txt");   //test
-            //string[] lines = System.IO.File.ReadAllLines(path + "DayXX\\inputDayX.txt");         //prod
-
-            Int32 points1 = 0;
-            Int32 points2 = 0;
-
+            string[] lines;
+            Int32 answer1 = 0;
+            Int32 answer2 = 0;
             int noOfRows = 0;
+
+            bool prod = false;
+
+            if (prod)
+            {
+                lines = System.IO.File.ReadAllLines(path + "DayXX\\inputDayX.txt");       //prod
+            }
+            else
+            {
+                lines = System.IO.File.ReadAllLines(path + "DayXX\\testinputDayX.txt");   //test
+            }
+
 
             //Uppgift 1:
 
@@ -26,8 +34,8 @@
 
             Console.WriteLine("Rader     = " + noOfRows);
 
-            Console.WriteLine("Uppgift 1 = " + points1);
-            Console.WriteLine("Uppgift 2 = " + points2);
+            Console.WriteLine("Uppgift 1 = " + answer1);
+            Console.WriteLine("Uppgift 2 = " + answer2);
         }
     }
 }
